@@ -35,10 +35,10 @@ class AddArticle extends React.Component {
                     Create new post
                 </label>
                 <input type='text'
-                       placeholder='Enter date posts'
                        className='form-control control'
-                       defaultValue=''
+                       defaultValue={new Date().toLocaleString()}
                        ref={this.inputDate}
+                       readonly
                 />
                 <input type='text'
                        placeholder='Enter title posts'

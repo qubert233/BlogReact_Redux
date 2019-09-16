@@ -1,9 +1,9 @@
 import {
-    BlogServiceConsumer,
-    BlogServiceProvider
-} from "./blog-service-context";
+  BlogServiceConsumer,
+  BlogServiceProvider,
+} from './blog-service-context';
 
 export {
-    BlogServiceProvider,
-    BlogServiceConsumer
-}
+  BlogServiceProvider,
+  BlogServiceConsumer,
+};
